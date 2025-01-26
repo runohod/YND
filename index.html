@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <title>Клуб четырех коней</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__content">
+        <img class="header__logo logo" src="img/logo.svg" alt="Логотип компании Клуб четырех коней">
+        <h1 class="header__title margin-reset">
+          Превратите уездный город
+          <span class="header__title-middle">в&nbsp;столицу</span>
+          <span class="header__title-bottom">земного шара</span>
+        </h1>
+        <p class="header__descr margin-reset">
+          Оплатите взнос на&nbsp;телеграммы для&nbsp;организации Международного васюкинского турнира по&nbsp;шахматам
+        </p>
+        <div class="header__links flex">
+          <a href="#support" class="header__link btn">Поддержать шахматную мысль</a>
+          <a href="#about" class="header__link btn">Подробнее о&nbsp;турнире</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <marquee class="marquee flex" behavior="" direction="">Дело помощи утопающим&nbsp;&mdash; дело рук
+    самих
+    утопающих! • Шахматы двигают вперед не&nbsp;только культуру, но&nbsp;и&nbsp;экономику! •
+    Лед тронулся, господа присяжные заседатели! •
+  </marquee>
+  <main class="main">
+    <section class="support" id="support">
+      <h2 class="support__title-top visibility-hidden margin-reset">ПОДДЕРЖАТЬ МЕЖДУНАРОДНЫЙ ВАСЮКИНСКИЙ ТУРНИР</h2>
+      <div class="support__container container">
+      </div>
+    </section>
+    <section class="transform" id="about">
+      <div class="transform__container container">
+        <h2 class="transform__title title margin-reset">Этапы преображения Васюков
+          <span class="transform__title-descr">Будущие источники обогащения васюкинцев</span>
+        </h2>
+        <ul class="transform__list list-reset">
+          <li class="transform__item transform__item-1">
+            Строительство железнодорожной магистрали Москва-Васюки
+          </li>
+          <li class="transform__item transform__item-2">
+            Открытие фешенебельной гостиницы &laquo;Проходная пешка&raquo;
+            и&nbsp;других
+            небоскрёбов</li>
+          <li class="transform__item transform__item-3">
+            Поднятие сельского хозяйства в&nbsp;радиусе на&nbsp;тысячу
+            километров:
+            производство овощей, фруктов, икры, шоколадных конфет
+          </li>
+          <li class="transform__item transform__item-4">
+            Строительство дворца для&nbsp;турнира
+          </li>
+          <li class="transform__item transform__item-5">
+            Размещение гаражей для&nbsp;гостевого автотранспорта
+          </li>
+          <li class="transform__item transform__item-6">
+            Постройка сверхмощной радиостанции для передачи всему миру
+            сенсационных результатов
+          </li>
+          <li class="transform__item transform__item-7">
+            Создание аэропорта &laquo;Большие Васюки&raquo;
+            с&nbsp;регулярным отправлением
+            почтовых самолётов и&nbsp;дирижаблей во&nbsp;все концы света, включая Лос-Анжелос и&nbsp;Мельбурн
+          </li>
+        </ul>
+      </div>
+      <picture>
+        <source media="(max-width: 768px)" srcset="img/transform-img-mobile.png">
+        <img class="transform__img" src="img/transform-img.png" aria-hidden="true" alt="">
+      </picture>
+      <ul class="transform__toolbar list-reset flex">
+        <li class="transform__toolbar-item transform__toolbar-item-left selectors-btn">
+          <img class="transform__toolbar-img-arrow" src="img/transform-btn-arrow.svg" aria-hidden="true" alt="">
+        </li>
+        <li class="transform__toolbar-item transform__toolbar-item-circle-1 transform__circle"></li>
+        <li class="transform__toolbar-item transform__toolbar-item-circle-2 transform__circle"></li>
+        <li class="transform__toolbar-item transform__toolbar-item-circle-3 transform__circle"></li>
+        <li class="transform__toolbar-item transform__toolbar-item-circle-4 transform__circle"></li>
+        <li class="transform__toolbar-item transform__toolbar-item-circle-5 transform__circle"></li>
+        <li class="transform__toolbar-item transform__toolbar-item-right selectors-btn">
+          <img class="transform__toolbar-img-arrow" src="img/transform-btn-arrow.svg" aria-hidden="true" alt="">
+        </li>
+      </ul>
+    </section>
+    <section class="participants">
+      <div class="container">
+        <div class="participants__slider flex">
+          <h2 class="participants__title title margin-reset">Участники турнира</h2>
+          <div class="participants__selectors">
+            <label class="participants__btn participants__btn-left selectors-btn" for="participants__btn-left"
+              aria-label="Кнопка пролистать слайдер участников влево">
+              <img class="participants__btn-img" src="img/participant-btn-arrow.svg" aria-hidden="true" alt="">
+            </label>
+            <span class="participants__selectors-number-first">3</span>
+            <span class="participants__selectors-slash">/</span>
+            <span class="participants__selectors-numbers-second">6</span>
+            <label class="participants__btn participants__btn-right selectors-btn" for="participants__btn-right"
+              aria-label="Кнопка пролистать слайдер участников вправо">
+              <img class="participants__btn-img" src="img/participant-btn-arrow.svg" aria-hidden="true" alt="">
+            </label>
+          </div>
+          <div class="participants__list list-reset flex">
+            <input class="participants__input participants__input-left" id="participants__btn-left" type="radio"
+              name="participants__input-radio" aria-hidden="true">
+            <input class="participants__input participants__input-right" id="participants__btn-right" type="radio"
+              name="participants__input-radio" aria-hidden="true">
+            <div class="participants__item participants__item-first">
+              <img class="participants__item-img" src="img/participans-item-img.jpg"
+                alt="Изображение участника турнира">
+              <strong class="participants__item-title">Хозе-Рауль Капабланка</strong>
+              <span class="participants__item-descr">Чемпион мира по&nbsp;шахматам</span>
+              <a href="#" class="participants__item-link">Подробнее</a>
+            </div>
+            <div class="participants__item">
+              <img class="participants__item-img" src="img/participans-item-img.jpg"
+                alt="Изображение участника турнира">
+              <strong class="participants__item-title">Эммануил Ласкер</strong>
+              <span class="participants__item-descr">Чемпион мира по&nbsp;шахматам</span>
+              <a href="#" class="participants__item-link">Подробнее</a>
+            </div>
+            <div class="participants__item">
+              <img class="participants__item-img" src="img/participans-item-img.jpg"
+                alt="Изображение участника турнира">
+              <strong class="participants__item-title">Александр Алехин</strong>
+              <span class="participants__item-descr">Чемпион мира по&nbsp;шахматам</span>
+              <a href="#" class="participants__item-link">Подробнее</a>
+            </div>
+            <div class="participants__item">
+              <img class="participants__item-img" src="img/participans-item-img.jpg"
+                alt="Изображение участника турнира">
+              <strong class="participants__item-title">Арон Нимцович</strong>
+              <span class="participants__item-descr">Чемпион мира по&nbsp;шахматам</span>
+              <a href="#" class="participants__item-link">Подробнее</a>
+            </div>
+            <div class="participants__item">
+              <img class="participants__item-img" src="img/participans-item-img.jpg"
+                alt="Изображение участника турнира">
+              <strong class="participants__item-title">Рихард Рети</strong>
+              <span class="participants__item-descr">Гроссмейстер</span>
+              <a href="#" class="participants__item-link">Подробнее</a>
+            </div>
+            <div class="participants__item">
+              <img class="participants__item-img" src="img/participans-item-img.jpg"
+                alt="Изображение участника турнира">
+              <strong class="participants__item-title">Остап Бендер</strong>
+              <span class="participants__item-descr">Чемпион мира по&nbsp;шахматам</span>
+              <a href="#" class="participants__item-link">Подробнее</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <marquee class="footer__marquee marquee flex" behavior="" direction="">Дело помощи утопающим&nbsp;&mdash; дело рук
+      самих
+      утопающих!
+      Шахматы двигают вперед не&nbsp;только культуру, но&nbsp;и&nbsp;экономику! •
+      Лед тронулся, господа присяжные заседатели! •
+    </marquee>
+    <div class="container">
+      <p class="footer__descr margin-reset">
+        Все персонажи, события и&nbsp;цитаты являются вымышленными и&nbsp;не&nbsp;принадлежат создателям сайта.
+        С&nbsp;подробностями можно познакомиться в&nbsp;главе XXXIV романа Ильи Ильфа и&nbsp;Евгения Петрова
+        &laquo;Двенадцать стульев&raquo;.
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
